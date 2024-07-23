@@ -15,6 +15,7 @@ public class Task2 {
         System.out.println("Число Pi " + Pi);
         System.out.println("Число Ейлера " + Euler);
 
+
         System.out.println();
 
         System.out.println("Якщо використати бібліотеку math і створити екземпляр классу BigDecimal то ми зможемо вивести інформацію згідно завдання без втрат");

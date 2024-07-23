@@ -23,6 +23,9 @@ public class Task6 {
         } else return "Division by ZERO";
     }
 
+    static int divRemnant(double a, double b) {
+        return (int) (a % b);
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -36,6 +39,7 @@ public class Task6 {
         System.out.println("Результатом віднімання є: " + subMethod(operandA, operandB));
         System.out.println("Результатом множення є: " + mulMethod(operandA, operandB));
         System.out.println("Результатом ділення є: " + divMethod(operandA, operandB));
+        System.out.println("Результатом ділення із залишком є: " + divRemnant(operandA, operandB));
 
     }
 }

@@ -1,7 +1,6 @@
 package lesson_04;
 
 import java.util.Scanner;
-
 public class Interval {
     public static void main(String[] args) {
 //         [0 – 14]

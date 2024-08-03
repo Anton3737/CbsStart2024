@@ -17,7 +17,6 @@ public class test {
 
         return counter;
 
-
     }
 
     public static void main(String[] args) {

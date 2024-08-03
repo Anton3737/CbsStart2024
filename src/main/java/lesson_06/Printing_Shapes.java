@@ -2,7 +2,7 @@ package lesson_06;
 
 public class Printing_Shapes {
 
-    static void Rectangle() {
+    static void rectangle() {
         System.out.println("Прямокутник");
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
@@ -13,7 +13,7 @@ public class Printing_Shapes {
         System.out.print("\n");
     }
 
-    static void Triangle() {
+    static void triangle() {
         System.out.println("Прямокутний трикутник");
         for (int i = 1; i <= 10; i++) {
             for (int j = 1; j < i; j++) {
@@ -24,21 +24,21 @@ public class Printing_Shapes {
         System.out.print("\n");
     }
 
-    static void Equilateral_triangle() {
+    static void equilateralTriangle() {
         System.out.println("Рівносторонній трикутник");
         for (int i = 0; i <= 10; i++) {     // друкуємо рядки
             for (int j = 0; j <= 10 - i; j++) {
-                System.out.print(" ");
+                System.out.print("  ");
             }
             for (int z = 1; z <= 2 * i - 1; z++) {
-                System.out.print('*');
+                System.out.print("* ");
             }
             System.out.println();
         }
         System.out.print("\n");
     }
 
-    static void Diamond() {
+    static void diamond() {
         System.out.println("Ромб");
         System.out.println();
         for (int i = 1; i <= 10; i++) {
@@ -64,9 +64,9 @@ public class Printing_Shapes {
 
 
     public static void main(String[] args) {
-        Rectangle();
-        Triangle();
-        Equilateral_triangle();
-        Diamond();
+        rectangle();
+        triangle();
+        equilateralTriangle();
+        diamond();
     }
 }

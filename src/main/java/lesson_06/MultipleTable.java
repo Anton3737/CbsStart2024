@@ -2,56 +2,56 @@ package lesson_06;
 
 public class MultipleTable {
 
-    static void TableOnTwo() {
+    static void tableOnTwo() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("2" + " * " + i + " = " + 2 * i);
         }
         System.out.println();
     }
 
-    static void TableOnThree() {
+    static void tableOnThree() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("3" + " * " + i + " = " + 3 * i);
         }
         System.out.println();
     }
 
-    static void TableOnFour() {
+    static void tableOnFour() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("4" + " * " + i + " = " + 4 * i);
         }
         System.out.println();
     }
 
-    static void TableOnFive() {
+    static void tableOnFive() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("5" + " * " + i + " = " + 5 * i);
         }
         System.out.println();
     }
 
-    static void TableOnSix() {
+    static void tableOnSix() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("6" + " * " + i + " = " + 6 * i);
         }
         System.out.println();
     }
 
-    static void TableOnSeven() {
+    static void tableOnSeven() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("7" + " * " + i + " = " + 7 * i);
         }
         System.out.println();
     }
 
-    static void TableOnEight() {
+    static void tableOnEight() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("8" + " * " + i + " = " + 8 * i);
         }
         System.out.println();
     }
 
-    static void TableOnNine() {
+    static void tableOnNine() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("9" + " * " + i + " = " + 9 * i);
         }
@@ -60,14 +60,14 @@ public class MultipleTable {
 
     public static void main(String[] args) {
 
-        TableOnTwo();
-        TableOnThree();
-        TableOnFour();
-        TableOnFive();
-        TableOnSix();
-        TableOnSeven();
-        TableOnEight();
-        TableOnNine();
+        tableOnTwo();
+        tableOnThree();
+        tableOnFour();
+        tableOnFive();
+        tableOnSix();
+        tableOnSeven();
+        tableOnEight();
+        tableOnNine();
 
     }
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FactorMethod {
 
-    static void FactorMethod() {
+    static void factorMethod() {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         if (N >= 1) {
@@ -21,7 +21,7 @@ public class FactorMethod {
     }
 
     public static void main(String[] args) {
-        FactorMethod();
+        factorMethod();
     }
 
 }

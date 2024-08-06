@@ -14,13 +14,13 @@ public class Arrays {
             array[i] = sc.nextInt();
         }
 
-        System.out.println("Туда ->");
+        System.out.println("Звичайни вивід масиву ->");
         for (int arraySout : array) {
             System.out.print(arraySout + " ");
         }
         System.out.println();
 
-        System.out.println("<- Сюдя");
+        System.out.println("<- Реверс виводу масиву");
         for (int i = array.length - 1; i >= 0; i--) {
             System.out.print(array[i] + " ");
         }

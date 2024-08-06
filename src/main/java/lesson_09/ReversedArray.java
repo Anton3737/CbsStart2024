@@ -11,12 +11,28 @@ public class ReversedArray {
     }
 
 
+//    static int[] subArray(int[] array, int index, int count) {
+//        int[] newArray = new int[count];
+//        System.out.println("\n Відпрацювання методу int[] subArray");
+//        for (int i = index; i < count; i++) {
+//            System.out.print(array[i] + " ");
+////            System.arraycopy(array, 0, newArray, 0, array.length);
+//        }
+//        return newArray;
+//    }
+
     static int[] subArray(int[] array, int index, int count) {
         int[] newArray = new int[count];
-        System.out.println("\n Відпрацювання методу int[] subArray");
-        for (int i = index; i < count; i++) {
-            System.out.print(array[i] + " ");
-//            System.arraycopy(array, 0, newArray, 0, array.length);
+        System.out.println("\nВідпрацювання методу int[] subArray:");
+
+        for (int i = 0; i < count; i++) {
+            if (index + i < array.length) {
+                newArray[i] = array[index + i];
+                System.out.print(newArray[i] + " ");
+            } else {
+                newArray[i] = 1; // Заповнення залишку масиву одиницями
+                System.out.print(newArray[i] + " ");
+            }
         }
         return newArray;
     }

@@ -19,9 +19,20 @@ public class test {
 
     }
 
+    static void diii() {
+
+
+    }
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String inputDataStr = scanner.next();
-        System.out.println(getSumOfDate(inputDataStr));
+
+        foreach:
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.println(" " + i);
+                if (i == 3 && j == 1) break foreach;
+                if (i == 0 || i == 2) break;
+            }
+        }
     }
 }

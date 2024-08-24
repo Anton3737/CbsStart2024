@@ -10,7 +10,7 @@ public class Address {
     private int apartment;
 
     public Address(int index, String country, String city, String street, int house, int apartment) {
-        this.index = index;
+        this. index = index;
         this.country = country;
         this.city = city;
         this.street = street;

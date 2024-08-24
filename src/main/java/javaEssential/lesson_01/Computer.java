@@ -89,6 +89,7 @@ public class Computer {
 
             array[i] = String.valueOf(new Computer(i, sc.next(), sc.next(), sc.nextInt(), sc.nextInt(), sc.next()));
 
+
             for (String arr : array) {
                 System.out.println(arr);
             }

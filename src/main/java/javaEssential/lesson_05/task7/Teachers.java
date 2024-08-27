@@ -1,4 +1,4 @@
-package javaEssential.lesson_06.task7;
+package javaEssential.lesson_05.task7;
 
 import java.util.ArrayList;
 

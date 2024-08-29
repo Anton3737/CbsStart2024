@@ -1,4 +1,4 @@
-package javaEssential.lesson_06.task2;
+package javaEssential.lesson_04.task2;
 
 public class Main {
     public static void main(String[] args) {

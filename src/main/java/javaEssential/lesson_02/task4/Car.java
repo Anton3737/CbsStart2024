@@ -13,22 +13,21 @@ public class Car {
         this(1900, 0.0, 100, "default");
     }
 
-    // Конструктор з 1 параметром
     public Car(int year) {
         this(year, 0.0, 100, "default");
     }
 
-    // Конструктор з 2-а параметрами
+
     public Car(int year, double speed) {
         this(year, speed, 100, "default");
     }
 
-    // Конструктор з 3-а параметрами
+
     public Car(int year, double speed, int weight) {
         this(year, speed, weight, "default");
     }
 
-    // Конструктор з 4-а параметрами
+
     public Car(int year, double speed, int weight, String color) {
         this.year = year;
         this.speed = speed;

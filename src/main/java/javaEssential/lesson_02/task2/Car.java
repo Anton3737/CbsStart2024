@@ -5,7 +5,6 @@ public class Car {
         int year;
         String color;
 
-
         public Car() {
         }
 

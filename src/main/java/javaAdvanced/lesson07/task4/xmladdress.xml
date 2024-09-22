@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collector_locations>
+    <locations>
+        <building>12</building>
+        <city>Kyiv</city>
+        <street>S.Petlyury</street>
+    </locations>
+    <locations>
+        <building>22</building>
+        <city>Kyiv</city>
+        <street>Khreshchatyk</street>
+    </locations>
+    <locations>
+        <building>33</building>
+        <city>Kyiv</city>
+        <street>Volodymyrska</street>
+    </locations>
+    <locations>
+        <building>5</building>
+        <city>Kyiv</city>
+        <street>Kontraktova Square</street>
+    </locations>
+    <locations>
+        <building>10</building>
+        <city>Kyiv</city>
+        <street>Bohdana Khmelnytskogo</street>
+    </locations>
+    <locations>
+        <building>19</building>
+        <city>Kyiv</city>
+        <street>Pechersky Uzviz</street>
+    </locations>
+    <locations>
+        <building>44</building>
+        <city>Kyiv</city>
+        <street>Velyka Vasylkivska</street>
+    </locations>
+    <locations>
+        <building>6</building>
+        <city>Kyiv</city>
+        <street>Lvivska Square</street>
+    </locations>
+    <locations>
+        <building>18</building>
+        <city>Kyiv</city>
+        <street>Andriyivskyy Descent</street>
+    </locations>
+    <locations>
+        <building>7</building>
+        <city>Kyiv</city>
+        <street>Dniprovska Naberezhna</street>
+    </locations>
+    <locations>
+        <building>1</building>
+        <city>Odesa</city>
+        <street>Deribasivska</street>
+    </locations>
+    <locations>
+        <building>5</building>
+        <city>Odesa</city>
+        <street>Primorsky Boulevard</street>
+    </locations>
+    <locations>
+        <building>13</building>
+        <city>Odesa</city>
+        <street>Pushkinska</street>
+    </locations>
+    <locations>
+        <building>25</building>
+        <city>Odesa</city>
+        <street>Frantsuzky Boulevard</street>
+    </locations>
+    <locations>
+        <building>7</building>
+        <city>Odesa</city>
+        <street>Katerynynska Square</street>
+    </locations>
+    <locations>
+        <building>10</building>
+        <city>Lviv</city>
+        <street>Rynok Square</street>
+    </locations>
+    <locations>
+        <building>20</building>
+        <city>Lviv</city>
+        <street>Svobody Avenue</street>
+    </locations>
+    <locations>
+        <building>6</building>
+        <city>Lviv</city>
+        <street>Virmenska</street>
+    </locations>
+    <locations>
+        <building>8</building>
+        <city>Lviv</city>
+        <street>Halytska</street>
+    </locations>
+    <locations>
+        <building>14</building>
+        <city>Lviv</city>
+        <street>Shevchenka Avenue</street>
+    </locations>
+    <locations>
+        <building>9</building>
+        <city>Chernihiv</city>
+        <street>P'iatnytska</street>
+    </locations>
+    <locations>
+        <building>15</building>
+        <city>Chernihiv</city>
+        <street>Shevchenko Street</street>
+    </locations>
+    <locations>
+        <building>3</building>
+        <city>Chernihiv</city>
+        <street>Myru Avenue</street>
+    </locations>
+    <locations>
+        <building>11</building>
+        <city>Chernihiv</city>
+        <street>Hetmana Polubotka</street>
+    </locations>
+    <locations>
+        <building>17</building>
+        <city>Chernihiv</city>
+        <street>Desnyanska</street>
+    </locations>
+</collector_locations>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collector_cats>
+    <animals>
+        <age>12</age>
+        <breed>Англійський сірий</breed>
+        <food>Рибка</food>
+        <name>Рижик</name>
+    </animals>
+    <animals>
+        <age>5</age>
+        <breed>Сіамський</breed>
+        <food>Курка</food>
+        <name>Мурка</name>
+    </animals>
+    <animals>
+        <age>8</age>
+        <breed>Британський короткошерстий</breed>
+        <food>М'ясо</food>
+        <name>Барсик</name>
+    </animals>
+    <animals>
+        <age>4</age>
+        <breed>Персидський</breed>
+        <food>Тунець</food>
+        <name>Ласка</name>
+    </animals>
+    <animals>
+        <age>10</age>
+        <breed>Мейн-Кун</breed>
+        <food>Сухий корм</food>
+        <name>Бегемот</name>
+    </animals>
+    <animals>
+        <age>7</age>
+        <breed>Сфінкс</breed>
+        <food>Індичка</food>
+        <name>Кеша</name>
+    </animals>
+    <animals>
+        <age>6</age>
+        <breed>Шотландський висловухий</breed>
+        <food>Сом</food>
+        <name>Лео</name>
+    </animals>
+    <animals>
+        <age>9</age>
+        <breed>Балійський</breed>
+        <food>Кролик</food>
+        <name>Сімба</name>
+    </animals>
+    <animals>
+        <age>3</age>
+        <breed>Саванна</breed>
+        <food>Яловичина</food>
+        <name>Тайгер</name>
+    </animals>
+    <animals>
+        <age>2</age>
+        <breed>Бенгальський</breed>
+        <food>Філе</food>
+        <name>Рекс</name>
+    </animals>
+    <animals>
+        <age>12</age>
+        <breed>Сибірський</breed>
+        <food>Курочка</food>
+        <name>Буся</name>
+    </animals>
+    <animals>
+        <age>11</age>
+        <breed>Орієнтальний</breed>
+        <food>Риба</food>
+        <name>Фелікс</name>
+    </animals>
+    <animals>
+        <age>5</age>
+        <breed>Американський короткошерстий</breed>
+        <food>Індичка</food>
+        <name>Оскар</name>
+    </animals>
+    <animals>
+        <age>4</age>
+        <breed>Егіпетський мау</breed>
+        <food>Креветки</food>
+        <name>Тутан</name>
+    </animals>
+    <animals>
+        <age>8</age>
+        <breed>Тайський</breed>
+        <food>Лосось</food>
+        <name>Шустрик</name>
+    </animals>
+    <animals>
+        <age>9</age>
+        <breed>Російський блакитний</breed>
+        <food>Паштет</food>
+        <name>Граф</name>
+    </animals>
+    <animals>
+        <age>6</age>
+        <breed>Японський бобтейл</breed>
+        <food>Тунець</food>
+        <name>Таро</name>
+    </animals>
+    <animals>
+        <age>5</age>
+        <breed>Турецький ван</breed>
+        <food>Куряче філе</food>
+        <name>Сніжок</name>
+    </animals>
+    <animals>
+        <age>7</age>
+        <breed>Норвезький лісовий</breed>
+        <food>Риб'ячий жир</food>
+        <name>Вікінг</name>
+    </animals>
+    <animals>
+        <age>10</age>
+        <breed>Рагамаффін</breed>
+        <food>Печінка</food>
+        <name>Лакі</name>
+    </animals>
+</collector_cats>

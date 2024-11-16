@@ -180,6 +180,8 @@ INNER JOIN OrderDetails on Customers.CustomerNo = OrderDetails.FK_Cust
 GROUP BY FName,Qty
 HAVING SUM(TotalPrice) = (SELECT MAX(TotalPrice) FROM OrderDetails);
 
+-- ---------------------------------------------------------------------------------------------------------------------
+
 
 
 

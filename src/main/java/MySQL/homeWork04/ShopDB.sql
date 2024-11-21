@@ -1,5 +1,3 @@
-
-
 DROP database ShopDB;
 
 CREATE DATABASE ShopDB;

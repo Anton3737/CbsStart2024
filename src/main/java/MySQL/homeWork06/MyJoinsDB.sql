@@ -68,72 +68,73 @@ VALUES
 
 -- ------------------------------------------------------------------------------------------------------
 
--- Завдання 4
+--Завдання 3: Задайте індекси на таблицях
 
---1. Отримання контактних даних співробітників (номери телефонів, місце проживання):
+-- Індекс на колонку Phone для швидкого пошуку за номерами телефонів
+CREATE INDEX idx_phone ON PhoneANDName (Phone);
+
+-- Індекс на PositionWorker для швидкого пошуку за посадою
+CREATE INDEX idx_position ON SaleryPosition (PositionWorker);
+
+-- Індекс на Family для швидкого пошуку співробітників за сімейним статусом
+CREATE INDEX idx_family ON FemilyBornLivePlase (Family);
+
+-- Індекс на LivePlace для оптимізації пошуку за місцем проживання
+CREATE INDEX idx_liveplace ON FemilyBornLivePlase (LivePlace);
+
+
+--Завдання 4: Створення відображення
+
+--1. Контактні дані працівників:
+
+CREATE VIEW ContactInfo AS
 SELECT
-    p.NamesWorker AS Name,
-    p.Phone AS Phone,
-    f.LivePlace AS Address
+    pn.NamesWorker AS WorkerName,
+    pn.Phone AS PhoneNumber,
+    fb.LivePlace AS Address
 FROM
-    PhoneANDName p
+    PhoneANDName pn
 JOIN
-    FemilyBornLivePlase f
+    FemilyBornLivePlase fb
 ON
-    p.id = f.id;
+    pn.id = fb.id;
 
+--2. Дата народження та номери телефонів неодружених працівників:
 
---2. Отримання інформації про дату народження всіх неодружених співробітників та їх номери:
-
+CREATE VIEW UnmarriedWorkersInfo AS
 SELECT
-    f.BornDate AS BirthDate,
-    p.Phone AS Phone
+    pn.NamesWorker AS WorkerName,
+    fb.BornDate AS BirthDate,
+    pn.Phone AS PhoneNumber
 FROM
-    FemilyBornLivePlase f
+    PhoneANDName pn
 JOIN
-    PhoneANDName p
+    FemilyBornLivePlase fb
 ON
-    f.id = p.id
+    pn.id = fb.id
 WHERE
-    f.Family = 'не одружений';
+    fb.Family = 'не одружений';
 
---3. Отримання інформації про всіх менеджерів компанії: дату народження та номер телефону:
+
+--3. Дата народження та номери телефонів менеджерів:
+
+CREATE VIEW ManagerInfo AS
 SELECT
-    p.NamesWorker AS Name,
-    f.BornDate AS BirthDate,
-    p.Phone AS Phone
+    pn.NamesWorker AS WorkerName,
+    fb.BornDate AS BirthDate,
+    pn.Phone AS PhoneNumber
 FROM
-    PhoneANDName p
+    PhoneANDName pn
 JOIN
-    FemilyBornLivePlase f
+    FemilyBornLivePlase fb
 ON
-    p.id = f.id
+    pn.id = fb.id
 JOIN
-    SaleryPosition s
+    SaleryPosition sp
 ON
-    p.id = s.id
+    pn.id = sp.id
 WHERE
-    s.PositionWorker = 'менеджер';
+    sp.PositionWorker = 'менеджер';
 
-
---Отримання імен покупців та імен співробітників, у яких TotalPrice товару більше 1000:
-
-USE ShopDB;
-
-SELECT
-    c.CustomerName AS CustomerName,
-    e.NamesWorker AS EmployeeName
-FROM
-    Orders o
-JOIN
-    Customers c
-ON
-    o.CustomerID = c.CustomerID
-JOIN
-    Employees e
-ON
-    o.EmployeeID = e.EmployeeID
-WHERE
-    o.TotalPrice > 1000;
 
 

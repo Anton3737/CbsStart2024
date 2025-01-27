@@ -3,24 +3,46 @@ package JDBC_Hibernate.HW1;
 import java.sql.*;
 
 public class main {
+
+    private static final String URL = "jdbc:postgresql://localhost:5432/MyJoinsDB";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "love";
+    private static final String SQL = "SELECT pn.Phone AS phone_number, fb.LivePlace AS address FROM PhoneANDName pn  JOIN FemilyBornLivePlase fb ON pn.id = fb.id;";
+
+
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:mysql://localhost:3306/MyJoinsDB";
-        String username = "your_username";
-        String password = "your_password";
+        registerDriver();
 
-        try (Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-             Statement statement = connection.createStatement()) {
+        Connection connection = null;
+        PreparedStatement statement = null;
+        ResultSet resultSet = null;
 
-            // Приклад запиту
-            String query = "SELECT e.phone_number, p.address FROM Employees e JOIN PersonalInfo p ON e.id = p.employee_id";
-            ResultSet resultSet = statement.executeQuery(query);
+        try {
+            connection = DriverManager.getConnection(URL, USER, PASSWORD);
+            statement = connection.prepareStatement(SQL);
+            resultSet = statement.executeQuery();
 
             while (resultSet.next()) {
-                System.out.println("Phone: " + resultSet.getString("phone_number") +
-                        ", Address: " + resultSet.getString("address"));
+                String phoneNumber = resultSet.getString("phone_number");
+                String address = resultSet.getString("address");
+
+                System.out.println("Phone: " + phoneNumber + ", Address: " + address);
             }
-        } catch (SQLException e) {
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private static void registerDriver() {
+        try {
+            Class.forName("org.postgresql.Driver");
+            System.out.println("Driver loading success!");
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
 }
+

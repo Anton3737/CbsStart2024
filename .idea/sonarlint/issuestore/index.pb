@@ -9,3 +9,11 @@ e
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Z
 *src/main/java/JDBC_Hibernate/HW1/main.java,2/9/29cc2b2d981af0c20c5585393b4365f1516f5e9e
+\
+,src/main/java/JDBC_Hibernate/HW3/Animal.java,9/6/96e82a063633ad6e53b5bc128a12dd056cda66bd
+Z
+*src/main/java/JDBC_Hibernate/HW3/Main.java,3/f/3fabc59cde298a7adba0652939464c999474937a
+a
+1src/main/java/MySQL/homeWork01/HW1_MySQL_2024.sql,8/6/864c6ab91f9ad85d7cd8dc662a1c35a612bf6aa1
+^
+.src/main/java/javaAdvanced/lesson09/Task2.java,9/7/97b96f623a1cb0a7279790d74dd7c2d54ab5c262
